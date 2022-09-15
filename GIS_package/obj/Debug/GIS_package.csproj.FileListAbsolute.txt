@@ -1,0 +1,330 @@
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\bin\Debug\GIS_package.exe
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\bin\Debug\GIS_package.pdb
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.frmMain.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.Properties.Resources.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.GenerateResource.cache
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CoreCompileInputs.cache
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.exe
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.pdb
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.csprojAssemblyReference.cache
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\bin\Debug\MyMapObjects.dll
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\bin\Debug\MyMapObjects.pdb
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CopyComplete
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.Form1.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.Att_Table.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.Field_Add.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.Sql_Query.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassFillRender.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassLineRender.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetFillSymbol.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetLineSymbol.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetPointSymbol.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueFillRender.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueLineRender.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniquePointRender.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassPointRender.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.frmShowLabel.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\GIS_package\obj\Debug\GIS_package.IdentifyForm.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\bin\Debug\GIS_package.exe
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\bin\Debug\GIS_package.pdb
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\bin\Debug\MyMapObjects.dll
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\bin\Debug\MyMapObjects.pdb
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.Att_Table.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.Field_Add.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.Form1.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassFillRender.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassLineRender.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassPointRender.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.frmMain.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetFillSymbol.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetLineSymbol.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetPointSymbol.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.frmShowLabel.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueFillRender.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueLineRender.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniquePointRender.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.IdentifyForm.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.Properties.Resources.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.Sql_Query.resources
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CopyComplete
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.exe
+C:\Users\lenovo\Desktop\new\GIS_package\GIS_package\obj\Debug\GIS_package.pdb
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\bin\Debug\GIS_package.exe
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\bin\Debug\GIS_package.pdb
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\bin\Debug\MyMapObjects.dll
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\bin\Debug\MyMapObjects.pdb
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.csprojAssemblyReference.cache
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.Att_Table.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.Field_Add.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.Form1.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassFillRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassLineRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassPointRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmMain.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetFillSymbol.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetLineSymbol.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetPointSymbol.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmShowLabel.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueFillRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueLineRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniquePointRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.IdentifyForm.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.Properties.Resources.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.Sql_Query.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.GenerateResource.cache
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CoreCompileInputs.cache
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CopyComplete
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.exe
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.pdb
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\bin\Debug\GIS_package.exe
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\bin\Debug\GIS_package.pdb
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\bin\Debug\MyMapObjects.dll
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\bin\Debug\MyMapObjects.pdb
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.csprojAssemblyReference.cache
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.Att_Table.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.Field_Add.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.Form1.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassFillRender.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassLineRender.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassPointRender.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmMain.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetFillSymbol.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetLineSymbol.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetPointSymbol.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmShowLabel.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueFillRender.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueLineRender.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniquePointRender.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.IdentifyForm.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.Properties.Resources.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.Sql_Query.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CopyComplete
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.exe
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\new\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.pdb
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\bin\Debug\GIS_package.exe
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\bin\Debug\GIS_package.pdb
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\bin\Debug\MyMapObjects.dll
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\bin\Debug\MyMapObjects.pdb
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.Att_Table.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.Field_Add.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.Form1.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassFillRender.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassLineRender.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassPointRender.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmMain.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetFillSymbol.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetLineSymbol.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetPointSymbol.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmShowLabel.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueFillRender.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueLineRender.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniquePointRender.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.IdentifyForm.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.Properties.Resources.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.Sql_Query.resources
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CopyComplete
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.exe
+C:\Users\lenovo\Desktop\GIS_package(3)\GIS_package\GIS_package\obj\Debug\GIS_package.pdb
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\bin\Debug\GIS_package.exe
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\bin\Debug\GIS_package.pdb
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\bin\Debug\MyMapObjects.dll
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\bin\Debug\MyMapObjects.pdb
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.csprojAssemblyReference.cache
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.Att_Table.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.Field_Add.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.Form1.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassFillRender.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassLineRender.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassPointRender.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.frmMain.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetFillSymbol.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetLineSymbol.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetPointSymbol.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.frmShowLabel.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueFillRender.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueLineRender.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniquePointRender.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.IdentifyForm.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.Properties.Resources.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.Sql_Query.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.GenerateResource.cache
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CoreCompileInputs.cache
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CopyComplete
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.exe
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\GIS_package\obj\Debug\GIS_package.pdb
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\bin\Debug\GIS_package.exe
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\bin\Debug\GIS_package.pdb
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\bin\Debug\MyMapObjects.dll
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\bin\Debug\MyMapObjects.pdb
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.csprojAssemblyReference.cache
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.Att_Table.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.deleteField.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.Field_Add.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.Form1.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassFillRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassLineRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassPointRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmMain.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetFillSymbol.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetLineSymbol.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetPointSymbol.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmShowLabel.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueFillRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueLineRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniquePointRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.IdentifyForm.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.Properties.Resources.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.Sql_Query.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.GenerateResource.cache
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CoreCompileInputs.cache
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CopyComplete
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.exe
+F:\360MoveData\Users\PC\Desktop\大三下\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.pdb
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\bin\Debug\GIS_package.exe
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\bin\Debug\GIS_package.pdb
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\bin\Debug\MyMapObjects.dll
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\bin\Debug\MyMapObjects.pdb
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.Att_Table.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.deleteField.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.Field_Add.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.Form1.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassFillRender.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassLineRender.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassPointRender.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmMain.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetFillSymbol.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetLineSymbol.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetPointSymbol.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmShowLabel.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueFillRender.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueLineRender.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniquePointRender.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.IdentifyForm.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.Properties.Resources.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.Sql_Query.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CopyComplete
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.exe
+C:\Users\lenovo\Desktop\GIS New\GIS_package\GIS_package\obj\Debug\GIS_package.pdb
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\bin\Debug\GIS_package.exe
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\bin\Debug\GIS_package.pdb
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\bin\Debug\MyMapObjects.dll
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\bin\Debug\MyMapObjects.pdb
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.csprojAssemblyReference.cache
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.Att_Table.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.deleteField.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.Field_Add.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.Form1.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassFillRender.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassLineRender.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassPointRender.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.frmMain.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetFillSymbol.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetLineSymbol.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetPointSymbol.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.frmShowLabel.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueFillRender.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueLineRender.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniquePointRender.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.IdentifyForm.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.Properties.Resources.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.Sql_Query.resources
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.GenerateResource.cache
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CoreCompileInputs.cache
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CopyComplete
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.exe
+C:\Users\thinkpad\Desktop\GIS_package\GIS_package\GIS_package\obj\Debug\GIS_package.pdb
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\bin\Debug\GIS_package.exe
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\bin\Debug\GIS_package.pdb
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\bin\Debug\MyMapObjects.dll
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\bin\Debug\MyMapObjects.pdb
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.Att_Table.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.deleteField.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.Field_Add.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.Form1.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassFillRender.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassLineRender.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassPointRender.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.frmMain.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetFillSymbol.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetLineSymbol.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetPointSymbol.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.frmShowLabel.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueFillRender.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueLineRender.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniquePointRender.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.IdentifyForm.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.Properties.Resources.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.Sql_Query.resources
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CopyComplete
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.exe
+C:\Users\lenovo\Desktop\GIS NEW NEW\GIS_package\GIS_package\obj\Debug\GIS_package.pdb
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\bin\Debug\GIS_package.exe
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\bin\Debug\GIS_package.pdb
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\bin\Debug\MyMapObjects.dll
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\bin\Debug\MyMapObjects.pdb
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.csprojAssemblyReference.cache
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.Att_Table.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.deleteField.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.Field_Add.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.Form1.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassFillRender.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassLineRender.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassPointRender.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.frmMain.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetFillSymbol.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetLineSymbol.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetPointSymbol.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.frmShowLabel.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueFillRender.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueLineRender.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniquePointRender.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.IdentifyForm.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.Properties.Resources.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.Sql_Query.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CopyComplete
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.exe
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\GIS_package\obj\Debug\GIS_package.pdb
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\bin\Debug\GIS_package.exe
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\bin\Debug\GIS_package.pdb
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\bin\Debug\MyMapObjects.dll
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\bin\Debug\MyMapObjects.pdb
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.AssemblyReference.cache
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.Att_Table.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.deleteField.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.Field_Add.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.Form1.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassFillRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassLineRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.frmClassPointRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.frmMain.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetFillSymbol.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetLineSymbol.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.frmSetPointSymbol.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.frmShowLabel.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueFillRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniqueLineRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.frmUniquePointRender.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.IdentifyForm.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.Properties.Resources.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.Sql_Query.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.GenerateResource.cache
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CoreCompileInputs.cache
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.csproj.CopyComplete
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.exe
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\GIS_package\obj\Debug\GIS_package.pdb

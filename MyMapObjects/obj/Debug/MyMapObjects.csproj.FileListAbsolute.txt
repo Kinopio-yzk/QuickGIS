@@ -1,0 +1,56 @@
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\MyMapObjects\bin\Debug\MyMapObjects.dll
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\MyMapObjects\bin\Debug\MyMapObjects.pdb
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csproj.CoreCompileInputs.cache
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.dll
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.pdb
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.moMapControl.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csproj.GenerateResource.cache
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\class_exercise\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\new\GIS_package\MyMapObjects\bin\Debug\MyMapObjects.dll
+C:\Users\lenovo\Desktop\new\GIS_package\MyMapObjects\bin\Debug\MyMapObjects.pdb
+C:\Users\lenovo\Desktop\new\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\new\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.moMapControl.resources
+C:\Users\lenovo\Desktop\new\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\new\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\new\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.dll
+C:\Users\lenovo\Desktop\new\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.pdb
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\MyMapObjects\bin\Debug\MyMapObjects.dll
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\MyMapObjects\bin\Debug\MyMapObjects.pdb
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csprojAssemblyReference.cache
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.moMapControl.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csproj.GenerateResource.cache
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csproj.CoreCompileInputs.cache
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.dll
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_package(3)\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.pdb
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\MyMapObjects\bin\Debug\MyMapObjects.dll
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\MyMapObjects\bin\Debug\MyMapObjects.pdb
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csprojAssemblyReference.cache
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.moMapControl.resources
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csproj.GenerateResource.cache
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csproj.CoreCompileInputs.cache
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.dll
+F:\新建文件夹\【大三下】\GIS设计和应用\H\作业一\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.pdb
+C:\Users\lenovo\Desktop\GIS New\GIS_package\MyMapObjects\bin\Debug\MyMapObjects.dll
+C:\Users\lenovo\Desktop\GIS New\GIS_package\MyMapObjects\bin\Debug\MyMapObjects.pdb
+C:\Users\lenovo\Desktop\GIS New\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\GIS New\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.moMapControl.resources
+C:\Users\lenovo\Desktop\GIS New\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\GIS New\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\GIS New\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.dll
+C:\Users\lenovo\Desktop\GIS New\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.pdb
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\MyMapObjects\bin\Debug\MyMapObjects.dll
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\MyMapObjects\bin\Debug\MyMapObjects.pdb
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csprojAssemblyReference.cache
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.moMapControl.resources
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.dll
+C:\Users\DELL\Documents\WeChat Files\wxid_4dz8dby6okq222\FileStorage\File\2021-06\619\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.pdb
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\MyMapObjects\bin\Debug\MyMapObjects.dll
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\MyMapObjects\bin\Debug\MyMapObjects.pdb
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csproj.AssemblyReference.cache
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.moMapControl.resources
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csproj.GenerateResource.cache
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csproj.CoreCompileInputs.cache
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.dll
+F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.pdb
