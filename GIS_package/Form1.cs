@@ -3504,7 +3504,5 @@ namespace GIS_package
                 }
             }
         }
-
-        
     }
 }

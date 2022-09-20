@@ -54,3 +54,11 @@ F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\MyMapObjects\obj
 F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.csproj.CoreCompileInputs.cache
 F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.dll
 F:\360MoveData\Users\PC\Desktop\大三下\GIS_Final\GIS_package\MyMapObjects\obj\Debug\MyMapObjects.pdb
+E:\博士\研一\QuickGIS\MyMapObjects\bin\Debug\MyMapObjects.dll
+E:\博士\研一\QuickGIS\MyMapObjects\bin\Debug\MyMapObjects.pdb
+E:\博士\研一\QuickGIS\MyMapObjects\obj\Debug\MyMapObjects.csproj.AssemblyReference.cache
+E:\博士\研一\QuickGIS\MyMapObjects\obj\Debug\MyMapObjects.moMapControl.resources
+E:\博士\研一\QuickGIS\MyMapObjects\obj\Debug\MyMapObjects.csproj.GenerateResource.cache
+E:\博士\研一\QuickGIS\MyMapObjects\obj\Debug\MyMapObjects.csproj.CoreCompileInputs.cache
+E:\博士\研一\QuickGIS\MyMapObjects\obj\Debug\MyMapObjects.dll
+E:\博士\研一\QuickGIS\MyMapObjects\obj\Debug\MyMapObjects.pdb
