@@ -1221,19 +1221,15 @@ namespace GIS_package
 
         private void Screen_Center_Scaleup(object sender, EventArgs e)
         {
-
-            double sX = moMap.ClientRectangle.Width / 2;
-            double sY = moMap.ClientRectangle.Height / 2;
-            MyMapObjects.moPoint sPoint = moMap.ToMapPoint(sX, sY);
-            moMap.ZoomByCenter(sPoint, mZoomRatioMouseWheel);
+            this.Cursor = new Cursor("../../Resources/Zoom_In.ico") ;
+            mMapOpStyle = 1;
         }
 
         private void Screen_Center_Scaledown(object sender, EventArgs e)
         {
-            double sX = moMap.ClientRectangle.Width / 2;
-            double sY = moMap.ClientRectangle.Height / 2;
-            MyMapObjects.moPoint sPoint = moMap.ToMapPoint(sX, sY);
-            moMap.ZoomByCenter(sPoint, 1 / mZoomRatioMouseWheel);
+            this.Cursor = new Cursor("../../Resources/Zoom_Out.ico");
+            mMapOpStyle = 2;
+
         }
 
         private void toolStripButton9_Click(object sender, EventArgs e)
@@ -1643,12 +1639,18 @@ namespace GIS_package
 
         private void 放大ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            mMapOpStyle = 1;
+            double sX = moMap.ClientRectangle.Width / 2;
+            double sY = moMap.ClientRectangle.Height / 2;
+            MyMapObjects.moPoint sPoint = moMap.ToMapPoint(sX, sY);
+            moMap.ZoomByCenter(sPoint, mZoomRatioMouseWheel);
         }
 
         private void 缩小ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            mMapOpStyle = 2;
+            double sX = moMap.ClientRectangle.Width / 2;
+            double sY = moMap.ClientRectangle.Height / 2;
+            MyMapObjects.moPoint sPoint = moMap.ToMapPoint(sX, sY);
+            moMap.ZoomByCenter(sPoint, 1 / mZoomRatioMouseWheel);
         }
 
         private void 漫游ToolStripMenuItem_Click(object sender, EventArgs e)
