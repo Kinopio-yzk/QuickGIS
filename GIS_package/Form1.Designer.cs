@@ -766,7 +766,7 @@
             this.toolStripButton14.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton14.Name = "toolStripButton14";
             this.toolStripButton14.Size = new System.Drawing.Size(24, 24);
-            this.toolStripButton14.Text = "toolStripButton14";
+            this.toolStripButton14.Text = "结束编辑";
             this.toolStripButton14.Click += new System.EventHandler(this.结束编辑ToolStripMenuItem_Click);
             // 
             // toolStripButton12
@@ -786,7 +786,7 @@
             this.toolStripButton13.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton13.Name = "toolStripButton13";
             this.toolStripButton13.Size = new System.Drawing.Size(24, 24);
-            this.toolStripButton13.Text = "toolStripButton13";
+            this.toolStripButton13.Text = "查看";
             this.toolStripButton13.Click += new System.EventHandler(this.identify);
             // 
             // tVLayers
