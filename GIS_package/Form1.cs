@@ -2884,7 +2884,7 @@ namespace GIS_package
         private void button1_Click(object sender, EventArgs e)
         {
             OpenFileDialog sDialog = new OpenFileDialog();
-            sDialog.Filter = "qgis(*.qgis)|*.qgis|All files(*.*)|*.*";
+            sDialog.Filter = "shapefiles(*.shp)|*.shp|All files(*.*)|*.*";
             string sFileName = "";
             if (sDialog.ShowDialog() == DialogResult.OK)
             {
@@ -2898,9 +2898,31 @@ namespace GIS_package
             }
             try
             {
-                FileStream sStream = new FileStream(sFileName, FileMode.Open);
-                StreamReader sr = new StreamReader(sStream);
-                MyMapObjects.moMapLayer sLayer = DataIOTools.LoadQgisLayer(sr, sFileName);
+                MyMapObjects.moFields Fields = new MyMapObjects.moFields();
+                char[] path = sDialog.FileName.ToCharArray();
+                if (path.Length != 0)
+                {
+                    path[path.Length - 1] = 'f';
+                    path[path.Length - 2] = 'b';
+                    path[path.Length - 3] = 'd';
+                    sDialog.FileName = new string(path);
+                    Fields = ReadDBF(sDialog);
+                }
+                MyMapObjects.moMapLayer sLayer = new MyMapObjects.moMapLayer();
+                if (path.Length != 0)
+                {
+                    path[path.Length - 1] = 'p';
+                    path[path.Length - 2] = 'h';
+                    path[path.Length - 3] = 's';
+                    sDialog.FileName = new string(path);
+                    sLayer = ReadSHP(sDialog, Fields);
+                    sLayer.UpdateExtent();
+                }
+                string tempStr = new string(path);
+                List<string> tempStr2 = tempStr.Split('\\').ToList<string>();
+                tempStr = tempStr2[tempStr2.Count - 1];
+                sLayer.Name = tempStr.Substring(0, tempStr.Length - 4);
+
                 moMap.Layers.Add(sLayer);
                 if (moMap.Layers.Count == 1)
                 {
@@ -2911,8 +2933,6 @@ namespace GIS_package
                     moMap.RedrawMap();
                 }
                 showTreeLayers(sLayer.Name, sLayer.ShapeType);
-                sr.Dispose();
-                sStream.Dispose();
             }
             catch (Exception error)
             {

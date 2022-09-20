@@ -267,6 +267,7 @@
             this.修改选中要素ToolStripMenuItem,
             this.删除选中要素ToolStripMenuItem,
             this.结束编辑ToolStripMenuItem1});
+            this.编辑EToolStripMenuItem.Enabled = false;
             this.编辑EToolStripMenuItem.Name = "编辑EToolStripMenuItem";
             this.编辑EToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
             this.编辑EToolStripMenuItem.Text = "编辑(E)";
@@ -343,6 +344,7 @@
             this.选择SToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.按属性选择ToolStripMenuItem,
             this.按空间位置选择ToolStripMenuItem});
+            this.选择SToolStripMenuItem.Enabled = false;
             this.选择SToolStripMenuItem.Name = "选择SToolStripMenuItem";
             this.选择SToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
             this.选择SToolStripMenuItem.Text = "选择(C)";
@@ -375,28 +377,28 @@
             // 放大ToolStripMenuItem
             // 
             this.放大ToolStripMenuItem.Name = "放大ToolStripMenuItem";
-            this.放大ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.放大ToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
             this.放大ToolStripMenuItem.Text = "中心放大";
             this.放大ToolStripMenuItem.Click += new System.EventHandler(this.放大ToolStripMenuItem_Click);
             // 
             // 缩小ToolStripMenuItem
             // 
             this.缩小ToolStripMenuItem.Name = "缩小ToolStripMenuItem";
-            this.缩小ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.缩小ToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
             this.缩小ToolStripMenuItem.Text = "中心缩小";
             this.缩小ToolStripMenuItem.Click += new System.EventHandler(this.缩小ToolStripMenuItem_Click);
             // 
             // 漫游ToolStripMenuItem
             // 
             this.漫游ToolStripMenuItem.Name = "漫游ToolStripMenuItem";
-            this.漫游ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.漫游ToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
             this.漫游ToolStripMenuItem.Text = "漫游";
             this.漫游ToolStripMenuItem.Click += new System.EventHandler(this.漫游ToolStripMenuItem_Click);
             // 
             // 缩放至图层ToolStripMenuItem
             // 
             this.缩放至图层ToolStripMenuItem.Name = "缩放至图层ToolStripMenuItem";
-            this.缩放至图层ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.缩放至图层ToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
             this.缩放至图层ToolStripMenuItem.Text = "缩放至图层";
             this.缩放至图层ToolStripMenuItem.Click += new System.EventHandler(this.缩放至图层ToolStripMenuItem_Click);
             // 
@@ -406,6 +408,7 @@
             this.设置符号ToolStripMenuItem,
             this.图层渲染ToolStripMenuItem,
             this.添加注记ToolStripMenuItem});
+            this.符号系统SToolStripMenuItem.Enabled = false;
             this.符号系统SToolStripMenuItem.Name = "符号系统SToolStripMenuItem";
             this.符号系统SToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
             this.符号系统SToolStripMenuItem.Text = "符号系统(S)";
@@ -556,6 +559,7 @@
             this.地图投影PToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.查看当前投影ToolStripMenuItem,
             this.投影变换ToolStripMenuItem});
+            this.地图投影PToolStripMenuItem.Enabled = false;
             this.地图投影PToolStripMenuItem.Name = "地图投影PToolStripMenuItem";
             this.地图投影PToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
             this.地图投影PToolStripMenuItem.Text = "地图投影(P)";
@@ -722,6 +726,7 @@
             // toolStripButton5
             // 
             this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton5.Enabled = false;
             this.toolStripButton5.Image = global::GIS_package.Properties.Resources.NeoFea;
             this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton5.Name = "toolStripButton5";
@@ -732,6 +737,7 @@
             // toolStripButton6
             // 
             this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton6.Enabled = false;
             this.toolStripButton6.Image = global::GIS_package.Properties.Resources.TransFea;
             this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton6.Name = "toolStripButton6";
@@ -742,6 +748,7 @@
             // toolStripButton10
             // 
             this.toolStripButton10.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton10.Enabled = false;
             this.toolStripButton10.Image = global::GIS_package.Properties.Resources.EditFea;
             this.toolStripButton10.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton10.Name = "toolStripButton10";
@@ -751,6 +758,7 @@
             // toolStripButton11
             // 
             this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton11.Enabled = false;
             this.toolStripButton11.Image = global::GIS_package.Properties.Resources.FltFea;
             this.toolStripButton11.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton11.Name = "toolStripButton11";
@@ -761,6 +769,7 @@
             // toolStripButton14
             // 
             this.toolStripButton14.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton14.Enabled = false;
             this.toolStripButton14.Image = global::GIS_package.Properties.Resources.tub1;
             this.toolStripButton14.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton14.Name = "toolStripButton14";
@@ -771,6 +780,7 @@
             // toolStripButton12
             // 
             this.toolStripButton12.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton12.Enabled = false;
             this.toolStripButton12.Image = global::GIS_package.Properties.Resources.e1;
             this.toolStripButton12.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton12.Name = "toolStripButton12";
