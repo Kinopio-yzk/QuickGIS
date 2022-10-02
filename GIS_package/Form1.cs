@@ -2333,8 +2333,16 @@ namespace GIS_package
         private void 删除选中要素ToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            if (mEditingLayer == null || mEditingLayer.SelectedFeatures.Count == 0 || mMapOpStyle == 7)
+            if (mEditingLayer == null)
+            {
+                MessageBox.Show("请选择一个图层！");
                 return;
+            }
+            if (mEditingLayer.SelectedFeatures.Count == 0 || mMapOpStyle == 7)
+            {
+                MessageBox.Show("请选择一个要素！");
+                return;
+            }
             mEditingLayer.IsDirty = true;
             mEditingPoint = null;
             mEditingGeometry = null;
@@ -2996,7 +3004,7 @@ namespace GIS_package
                 if (moMap.Layers.GetItem(i).Name == tVLayers.SelectedNode.Text)
                 {
                     mEditingLayer = moMap.Layers.GetItem(i);
-                    
+                    toolStripStatusLabel5.Text = "当前编辑图层：" + moMap.Layers.GetItem(i).Name;
                     moMap.RedrawMap();
                     ShowSelectedShapeCount();
                 }
@@ -3072,7 +3080,11 @@ namespace GIS_package
                 return;
             }
             if (mEditingLayer.SelectedFeatures.Count == 0)
+            {
+                MessageBox.Show("请选择一个要素！");
                 return;
+            }
+                
             mSketchingShape = null;
 
             this.Cursor = Cursors.Hand;
@@ -3087,7 +3099,6 @@ namespace GIS_package
         {
             try
             {
-                
                 if (mEditingLayer == null)
                     return;
                 RefreshEditingLayer();
@@ -3106,6 +3117,7 @@ namespace GIS_package
             RefreshEditingLayer();
             this.Cursor = Cursors.Default;
             tVLayers.SelectedNode.ImageIndex = imageindex;
+            toolStripStatusLabel5.Text = "当前编辑图层：无";
         }
 
 
@@ -3525,6 +3537,31 @@ namespace GIS_package
                     moMap.RedrawMap();
                 }
             }
+        }
+
+        private void toolStripButton10_Click(object sender, EventArgs e)
+        {
+            if (mEditingLayer == null || mEditingLayer.ShapeType == moGeometryTypeConstant.Point)
+            {
+                MessageBox.Show("请选择一个图层！");
+                return;
+            }
+            if (mEditingLayer.SelectedFeatures.Count == 0)
+            {
+                MessageBox.Show("请选择一个要素！");
+                return;
+            }
+            if (mEditingLayer.SelectedFeatures.Count != 1)
+            {
+                MessageBox.Show("只支持选择一个要素！");
+                return;
+            }
+            mSketchingShape = null;
+            this.Cursor = Cursors.Arrow;
+            mMapOpStyle = 8;
+            mEditingGeometry = mEditingLayer.SelectedFeatures.GetItem(0).Geometry;
+            moUserDrawingTool userDrawingTool = moMap.GetDrawingTool();
+            DrawEditingShapes(userDrawingTool);
         }
     }
 }
