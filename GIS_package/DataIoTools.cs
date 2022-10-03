@@ -33,7 +33,7 @@ namespace GIS_package
                 sw.WriteLine(layers.GetItem(i).path);
             }
 
-            /*
+            
             //已选要素信息
             for (Int32 i = 0; i <= layers_count - 1; i++)
             {
@@ -48,7 +48,7 @@ namespace GIS_package
                         sw.WriteLine(layers.GetItem(i).Features.Get().IndexOf(layers.GetItem(i).SelectedFeatures.GetItem(j)));
                     }
                 }
-            }*/
+            }
 
         }
 

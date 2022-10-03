@@ -254,16 +254,39 @@ namespace GIS_package
         //保存编辑的图层文件
         private void toolStripButton12_Click(object sender, EventArgs e)
         {
+            SaveFileDialog sDialog = new SaveFileDialog();
+            sDialog.OverwritePrompt = true; // 重名覆盖提醒
+            sDialog.AddExtension = true;
+            sDialog.Filter = "qgis文件(*.qgis)|*.qgis";
+            string sFileName = "untitled";
+            if (sDialog.ShowDialog() == DialogResult.OK)
+            {
+                sFileName = sDialog.FileName;
+                sDialog.Dispose();
+            }
+            else
+            {
+                sDialog.Dispose();
+                return;
+            }
             try
             {
-                if (mEditingLayer == null)
-                    return;
-                FileStream sStream = new FileStream(mEditingLayer.path, FileMode.Create);
+                FileStream sStream = new FileStream(sFileName, FileMode.Create);
                 StreamWriter sw = new StreamWriter(sStream);
-                DataIOTools.SaveQgisLayer(sw, mEditingLayer);
-                MessageBox.Show("保存成功");
+                MyMapObjects.moMapLayer currentLayer = new moMapLayer();
+                for (Int32 i = 0; i < moMap.Layers.Count; i++)
+                {
+                    if (moMap.Layers.GetItem(i).Name == tVLayers.SelectedNode.Text)
+                    {
+                        currentLayer = moMap.Layers.GetItem(i);
+                        break;
+                    }
+                }
+
+                DataIOTools.SaveQgisLayer(sw, currentLayer);
                 sw.Dispose();
                 sStream.Dispose();
+                MessageBox.Show("保存成功");
             }
             catch (Exception error)
             {
@@ -1424,7 +1447,7 @@ namespace GIS_package
             //修改
             if (mEditingLayer != null)
             {
-                double dis_max = 3000;
+                double dis_max = 500;
                 int delete_index = -1;
                 int delete_part_index = -1;
                 if (mEditingLayer.ShapeType == moGeometryTypeConstant.MultiPolygon)
@@ -3562,6 +3585,47 @@ namespace GIS_package
             mEditingGeometry = mEditingLayer.SelectedFeatures.GetItem(0).Geometry;
             moUserDrawingTool userDrawingTool = moMap.GetDrawingTool();
             DrawEditingShapes(userDrawingTool);
+        }
+
+        private void 打开qgis文件ToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            OpenFileDialog sDialog = new OpenFileDialog();
+            sDialog.Filter = "qgis(*.qgis)|*.qgis|All files(*.*)|*.*";
+            string sFileName = "";
+            if (sDialog.ShowDialog() == DialogResult.OK)
+            {
+                sFileName = sDialog.FileName;
+                sDialog.Dispose();
+            }
+            else
+            {
+                sDialog.Dispose();
+                return;
+            }
+            try
+            {
+                FileStream sStream = new FileStream(sFileName, FileMode.Open);
+                StreamReader sr = new StreamReader(sStream);
+                MyMapObjects.moMapLayer sLayer = DataIOTools.LoadQgisLayer(sr, sFileName);
+                moMap.Layers.Add(sLayer);
+                if (moMap.Layers.Count == 1)
+                {
+                    moMap.FullExtent();
+                }
+                else
+                {
+                    moMap.RedrawMap();
+                }
+                showTreeLayers(sLayer.Name, sLayer.ShapeType);
+                sr.Dispose();
+                sStream.Dispose();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.ToString());
+                return;
+            }
+
         }
     }
 }
