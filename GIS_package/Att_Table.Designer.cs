@@ -50,11 +50,14 @@ namespace GIS_package
             this.删除当前记录ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.删除字段ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.statusStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.contextMenuStrip2.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -136,7 +139,7 @@ namespace GIS_package
             // 开始编辑ToolStripMenuItem
             // 
             this.开始编辑ToolStripMenuItem.Name = "开始编辑ToolStripMenuItem";
-            this.开始编辑ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.开始编辑ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
             this.开始编辑ToolStripMenuItem.Text = "开始编辑";
             this.开始编辑ToolStripMenuItem.Click += new System.EventHandler(this.开始编辑ToolStripMenuItem_Click);
             // 
@@ -144,21 +147,21 @@ namespace GIS_package
             // 
             this.结束编辑ToolStripMenuItem.Enabled = false;
             this.结束编辑ToolStripMenuItem.Name = "结束编辑ToolStripMenuItem";
-            this.结束编辑ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.结束编辑ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
             this.结束编辑ToolStripMenuItem.Text = "结束编辑";
             this.结束编辑ToolStripMenuItem.Click += new System.EventHandler(this.结束编辑ToolStripMenuItem_Click);
             // 
             // 添加字段ToolStripMenuItem
             // 
             this.添加字段ToolStripMenuItem.Name = "添加字段ToolStripMenuItem";
-            this.添加字段ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.添加字段ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
             this.添加字段ToolStripMenuItem.Text = "添加字段";
             this.添加字段ToolStripMenuItem.Click += new System.EventHandler(this.添加字段ToolStripMenuItem_Click);
             // 
             // 删除字段ToolStripMenuItem
             // 
             this.删除字段ToolStripMenuItem.Name = "删除字段ToolStripMenuItem";
-            this.删除字段ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.删除字段ToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
             this.删除字段ToolStripMenuItem.Text = "删除字段";
             this.删除字段ToolStripMenuItem.Click += new System.EventHandler(this.删除字段ToolStripMenuItem_Click);
             // 
@@ -168,12 +171,12 @@ namespace GIS_package
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 28);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 27;
-            this.dataGridView1.Size = new System.Drawing.Size(853, 474);
+            this.dataGridView1.Size = new System.Drawing.Size(853, 475);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellMouseDown += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseDown);
             this.dataGridView1.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellValueChanged);
@@ -184,7 +187,7 @@ namespace GIS_package
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tssSelected});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 476);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 503);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(853, 26);
             this.statusStrip1.TabIndex = 2;
@@ -226,14 +229,31 @@ namespace GIS_package
             this.删除字段ToolStripMenuItem1.Text = "删除字段";
             this.删除字段ToolStripMenuItem1.Click += new System.EventHandler(this.删除字段ToolStripMenuItem1_Click);
             // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(0, 503);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(853, 26);
+            this.panel1.TabIndex = 3;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.dataGridView1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 28);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(853, 475);
+            this.panel2.TabIndex = 4;
+            // 
             // Att_Table
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(853, 502);
+            this.ClientSize = new System.Drawing.Size(853, 529);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.statusStrip1);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.panel1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Att_Table";
             this.Text = "属性表";
@@ -245,6 +265,7 @@ namespace GIS_package
             this.statusStrip1.PerformLayout();
             this.contextMenuStrip1.ResumeLayout(false);
             this.contextMenuStrip2.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -272,5 +293,7 @@ namespace GIS_package
         private System.Windows.Forms.ToolStripMenuItem 取消选中ToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
         private System.Windows.Forms.ToolStripMenuItem 删除字段ToolStripMenuItem1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }

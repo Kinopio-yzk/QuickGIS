@@ -168,7 +168,8 @@ namespace GIS_package
             //修改条件值选值
             ConditionBox.Text = "";
             ConditionBox.Items.Clear();
-            int i = bindLayer.AttributeFields.FindField(NameBox.Text);
+            int i = 0;
+            i = bindLayer.AttributeFields.FindField(NameBox.Text);
             if (i < 0)
             {
                 MessageBox.Show("当前字段不存在，请重新输入！");

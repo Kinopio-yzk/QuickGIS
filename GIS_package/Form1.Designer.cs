@@ -37,6 +37,7 @@
             this.保存Qmap文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.打开图层文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.打开shp文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.打开qgis文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.保存图层文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.保存qgis文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.输出为Bitmap格式ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -131,6 +132,7 @@
             this.简单渲染ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.唯一值法渲染ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.分级法渲染ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.导出为shpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.编辑 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.结束部分ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.结束描绘ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -151,7 +153,6 @@
             this.splitter2 = new System.Windows.Forms.Splitter();
             this.panel4 = new System.Windows.Forms.Panel();
             this.moMap = new MyMapObjects.moMapControl();
-            this.打开qgis文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -196,14 +197,14 @@
             // 打开Qmap文件ToolStripMenuItem
             // 
             this.打开Qmap文件ToolStripMenuItem.Name = "打开Qmap文件ToolStripMenuItem";
-            this.打开Qmap文件ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.打开Qmap文件ToolStripMenuItem.Size = new System.Drawing.Size(218, 26);
             this.打开Qmap文件ToolStripMenuItem.Text = "打开Qmap文件";
             this.打开Qmap文件ToolStripMenuItem.Click += new System.EventHandler(this.打开Qmap文件ToolStripMenuItem_Click);
             // 
             // 保存Qmap文件ToolStripMenuItem
             // 
             this.保存Qmap文件ToolStripMenuItem.Name = "保存Qmap文件ToolStripMenuItem";
-            this.保存Qmap文件ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.保存Qmap文件ToolStripMenuItem.Size = new System.Drawing.Size(218, 26);
             this.保存Qmap文件ToolStripMenuItem.Text = "保存Qmap文件";
             this.保存Qmap文件ToolStripMenuItem.Click += new System.EventHandler(this.保存Qmap文件ToolStripMenuItem_Click);
             // 
@@ -213,35 +214,42 @@
             this.打开shp文件ToolStripMenuItem,
             this.打开qgis文件ToolStripMenuItem});
             this.打开图层文件ToolStripMenuItem.Name = "打开图层文件ToolStripMenuItem";
-            this.打开图层文件ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.打开图层文件ToolStripMenuItem.Size = new System.Drawing.Size(218, 26);
             this.打开图层文件ToolStripMenuItem.Text = "打开图层文件";
             // 
             // 打开shp文件ToolStripMenuItem
             // 
             this.打开shp文件ToolStripMenuItem.Name = "打开shp文件ToolStripMenuItem";
-            this.打开shp文件ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.打开shp文件ToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
             this.打开shp文件ToolStripMenuItem.Text = "打开shp文件";
             this.打开shp文件ToolStripMenuItem.Click += new System.EventHandler(this.打开shp文件ToolStripMenuItem_Click);
+            // 
+            // 打开qgis文件ToolStripMenuItem
+            // 
+            this.打开qgis文件ToolStripMenuItem.Name = "打开qgis文件ToolStripMenuItem";
+            this.打开qgis文件ToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
+            this.打开qgis文件ToolStripMenuItem.Text = "打开qgis文件";
+            this.打开qgis文件ToolStripMenuItem.Click += new System.EventHandler(this.打开qgis文件ToolStripMenuItem_Click_1);
             // 
             // 保存图层文件ToolStripMenuItem
             // 
             this.保存图层文件ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.保存qgis文件ToolStripMenuItem});
             this.保存图层文件ToolStripMenuItem.Name = "保存图层文件ToolStripMenuItem";
-            this.保存图层文件ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.保存图层文件ToolStripMenuItem.Size = new System.Drawing.Size(218, 26);
             this.保存图层文件ToolStripMenuItem.Text = "文件格式转换";
             // 
             // 保存qgis文件ToolStripMenuItem
             // 
             this.保存qgis文件ToolStripMenuItem.Name = "保存qgis文件ToolStripMenuItem";
-            this.保存qgis文件ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.保存qgis文件ToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
             this.保存qgis文件ToolStripMenuItem.Text = "lay转qgis";
             this.保存qgis文件ToolStripMenuItem.Click += new System.EventHandler(this.保存qgis文件ToolStripMenuItem_Click);
             // 
             // 输出为Bitmap格式ToolStripMenuItem
             // 
             this.输出为Bitmap格式ToolStripMenuItem.Name = "输出为Bitmap格式ToolStripMenuItem";
-            this.输出为Bitmap格式ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.输出为Bitmap格式ToolStripMenuItem.Size = new System.Drawing.Size(218, 26);
             this.输出为Bitmap格式ToolStripMenuItem.Text = "输出为Bitmap格式";
             this.输出为Bitmap格式ToolStripMenuItem.Click += new System.EventHandler(this.输出为Bitmap格式ToolStripMenuItem_Click);
             // 
@@ -253,7 +261,6 @@
             this.修改选中要素ToolStripMenuItem,
             this.删除选中要素ToolStripMenuItem,
             this.结束编辑ToolStripMenuItem1});
-            this.编辑EToolStripMenuItem.Enabled = false;
             this.编辑EToolStripMenuItem.Name = "编辑EToolStripMenuItem";
             this.编辑EToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
             this.编辑EToolStripMenuItem.Text = "编辑(E)";
@@ -330,7 +337,6 @@
             this.选择SToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.按属性选择ToolStripMenuItem,
             this.按空间位置选择ToolStripMenuItem});
-            this.选择SToolStripMenuItem.Enabled = false;
             this.选择SToolStripMenuItem.Name = "选择SToolStripMenuItem";
             this.选择SToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
             this.选择SToolStripMenuItem.Text = "选择(C)";
@@ -394,7 +400,6 @@
             this.设置符号ToolStripMenuItem,
             this.图层渲染ToolStripMenuItem,
             this.添加注记ToolStripMenuItem});
-            this.符号系统SToolStripMenuItem.Enabled = false;
             this.符号系统SToolStripMenuItem.Name = "符号系统SToolStripMenuItem";
             this.符号系统SToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
             this.符号系统SToolStripMenuItem.Text = "符号系统(S)";
@@ -545,7 +550,6 @@
             this.地图投影PToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.查看当前投影ToolStripMenuItem,
             this.投影变换ToolStripMenuItem});
-            this.地图投影PToolStripMenuItem.Enabled = false;
             this.地图投影PToolStripMenuItem.Name = "地图投影PToolStripMenuItem";
             this.地图投影PToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
             this.地图投影PToolStripMenuItem.Text = "地图投影(P)";
@@ -569,6 +573,7 @@
             this.帮助HToolStripMenuItem.Name = "帮助HToolStripMenuItem";
             this.帮助HToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
             this.帮助HToolStripMenuItem.Text = "帮助(H)";
+            this.帮助HToolStripMenuItem.Click += new System.EventHandler(this.帮助HToolStripMenuItem_Click);
             // 
             // toolStrip1
             // 
@@ -916,9 +921,10 @@
             this.结束编辑图层ToolStripMenuItem,
             this.转移到当前图层ToolStripMenuItem,
             this.设置注记ToolStripMenuItem,
-            this.渲染ToolStripMenuItem});
+            this.渲染ToolStripMenuItem,
+            this.导出为shpToolStripMenuItem});
             this.LayerStrip.Name = "LayerStrip";
-            this.LayerStrip.Size = new System.Drawing.Size(169, 220);
+            this.LayerStrip.Size = new System.Drawing.Size(169, 244);
             // 
             // 打开属性表ToolStripMenuItem
             // 
@@ -1006,6 +1012,13 @@
             this.分级法渲染ToolStripMenuItem.Size = new System.Drawing.Size(182, 26);
             this.分级法渲染ToolStripMenuItem.Text = "分级法渲染";
             this.分级法渲染ToolStripMenuItem.Click += new System.EventHandler(this.分级法渲染ToolStripMenuItem_Click);
+            // 
+            // 导出为shpToolStripMenuItem
+            // 
+            this.导出为shpToolStripMenuItem.Name = "导出为shpToolStripMenuItem";
+            this.导出为shpToolStripMenuItem.Size = new System.Drawing.Size(168, 24);
+            this.导出为shpToolStripMenuItem.Text = "导出为shp";
+            this.导出为shpToolStripMenuItem.Click += new System.EventHandler(this.导出为shpToolStripMenuItem_Click);
             // 
             // 编辑
             // 
@@ -1189,13 +1202,6 @@
             this.moMap.MouseMove += new System.Windows.Forms.MouseEventHandler(this.moMap_MouseMove);
             this.moMap.MouseUp += new System.Windows.Forms.MouseEventHandler(this.moMap_MouseUp);
             // 
-            // 打开qgis文件ToolStripMenuItem
-            // 
-            this.打开qgis文件ToolStripMenuItem.Name = "打开qgis文件ToolStripMenuItem";
-            this.打开qgis文件ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.打开qgis文件ToolStripMenuItem.Text = "打开qgis文件";
-            this.打开qgis文件ToolStripMenuItem.Click += new System.EventHandler(this.打开qgis文件ToolStripMenuItem_Click_1);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -1354,5 +1360,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel5;
         private System.Windows.Forms.ToolStripMenuItem 打开qgis文件ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 导出为shpToolStripMenuItem;
     }
 }

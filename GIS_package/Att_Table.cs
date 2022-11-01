@@ -113,6 +113,26 @@ namespace GIS_package
                     sAddField.AliasName = AddFieldForm.FieldAlias;
                 //当前默认值仍为default
                 bindLayer.AttributeFields.Append(sAddField);
+                if(AddFieldForm.Default.ToString()!="")
+                {
+                    if(AddFieldForm.ValueType== MyMapObjects.moValueTypeConstant.dText)
+                    {
+                        for (int i = 0; i < bindLayer.Features.Count; i++)
+                        {
+                            bindLayer.Features.GetItem(i).Attributes.SetItem(bindLayer.AttributeFields.Count - 1, AddFieldForm.Default.ToString());
+
+                        }
+                    }
+                    else
+                    {
+                        for (int i = 0; i < bindLayer.Features.Count; i++)
+                        {
+                            bindLayer.Features.GetItem(i).Attributes.SetItem(bindLayer.AttributeFields.Count - 1, Convert.ToDouble(AddFieldForm.Default));
+
+                        }
+                    }
+                }
+                
                 bindLayer.IsDirty = true;
                 //重置datatable和selected_datatable
                 Refresh_DataTable();
@@ -410,7 +430,7 @@ namespace GIS_package
                     if (_DT.Rows[j][index].ToString() == bindLayer.SelectedFeatures.GetItem(i).Attributes.GetItem(index).ToString())
                     {
                         this.dataGridView1.Rows[j].DefaultCellStyle.BackColor = Color.Yellow;
-                        break;
+
                     }
                 }
             }

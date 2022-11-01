@@ -270,7 +270,7 @@ namespace MyMapObjects
         {
             _SelectedFeatures.Clear();
             Int32 sFeatureCount = features.Count;
-            Int32 index = _AttributeFields.FindField(field.Name);
+            Int32 index = _AttributeFields.FindField(field.Name.Replace("\0",string.Empty));
             moValueTypeConstant moValueTypeConstant = field.ValueType;
             if (index < 0)
             {
@@ -278,28 +278,28 @@ namespace MyMapObjects
             }
             if (moValueTypeConstant.Equals(MyMapObjects.moValueTypeConstant.dint16))
             {
-                value = Convert.ToInt16(value);
+                value = Convert.ToDouble(value.ToString());
             }
             else if (moValueTypeConstant.Equals(MyMapObjects.moValueTypeConstant.dint32))
             {
-                value = Convert.ToInt32(value);
+                value = Convert.ToDouble(value.ToString());
             }
             else if (moValueTypeConstant.Equals(MyMapObjects.moValueTypeConstant.dint64))
             {
-                value = Convert.ToInt64(value);
+                value = Convert.ToDouble(value.ToString());
             }
             else if (moValueTypeConstant.Equals(MyMapObjects.moValueTypeConstant.dSingle))
             {
-                value = Convert.ToSingle(value);
+                value = Convert.ToDouble(value.ToString());
 
             }
             else if (moValueTypeConstant.Equals(MyMapObjects.moValueTypeConstant.dDouble))
             {
-                value = Convert.ToDouble(value);
+                value = Convert.ToDouble(value.ToString());
             }
             else if (moValueTypeConstant.Equals(MyMapObjects.moValueTypeConstant.dText))
             {
-                value = Convert.ToString(value);
+                value = Convert.ToString(value.ToString());
             }
             else
             {

@@ -75,10 +75,12 @@ namespace MyMapObjects
         /// <returns></returns>
         public Int32 FindField(string name)
         {
+            name = name.Replace("\0", string.Empty);
             Int32 sFieldCount = _Fields.Count;
             for (Int32 i = 0; i <= sFieldCount - 1; i++)
             {
-                if (_Fields[i].Name.ToLower() == name.ToLower())
+                string x = _Fields[i].Name.ToString().Replace("\0", string.Empty);
+                if (x.ToLower() == name.ToLower())
                 {
                     return i;
                 }

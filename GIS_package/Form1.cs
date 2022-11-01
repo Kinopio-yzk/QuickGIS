@@ -24,14 +24,14 @@ namespace GIS_package
         private MyMapObjects.moSimpleFillSymbol mZoomBoxSymbol;
         private MyMapObjects.moSimpleFillSymbol mMovingPolygonSymbol;
         private MyMapObjects.moSimpleLineSymbol mMovingPolylineSymbol;
-       
+        
         private MyMapObjects.moSimpleFillSymbol mEditingPolygonSymbol;
         private MyMapObjects.moSimpleMarkerSymbol mEditingVertexSymbol; //顶点手柄符号
         private MyMapObjects.moSimpleLineSymbol mElasticSymbol; //橡皮筋符号
         private MyMapObjects.moSimpleLineSymbol mEditingPolylineSymbol; //添加的线符号
         private MyMapObjects.moSimpleMarkerSymbol mEditingPointSymbol; //添加的点符号
         private MyMapObjects.moSimpleMarkerSymbol mMovingPointSymbol;//待移动的顶点符号
-
+       
         //与地图操作有关的变量
         private Int32 mMapOpStyle = 0;  // 1 放大  2 缩小  3 漫游  4 选择  5 查询  6 移动  7 描绘  8 编辑
         private PointF mStartMouseLocation; //拉框的起点
@@ -45,11 +45,22 @@ namespace GIS_package
         private List<MyMapObjects.moPoints> mSketchingShape; //正在描绘的图形
         private MyMapObjects.moPoint mEditingPoint = null;//正在编辑的图形中待移动的点或正在编辑的图形中待添加的点要插入线段的起点
         private MyMapObjects.moPoint mEditingPoint2 = null;//正在编辑的图形中待添加的点要插入线段的终点
+
+        IDictionary<moGeometryTypeConstant, int> TypeDic = new Dictionary<moGeometryTypeConstant, int>()
+        { {moGeometryTypeConstant.Point,1 },{ moGeometryTypeConstant.MultiPolyline,3},{ moGeometryTypeConstant.MultiPolygon,5} };
+
+        IDictionary<moValueTypeConstant, int> ValueDic = new Dictionary<moValueTypeConstant, int>()
+        { {moValueTypeConstant.dint16, 78},{ moValueTypeConstant.dint32,78},{ moValueTypeConstant.dint64,78},{ moValueTypeConstant.dSingle,78},{ moValueTypeConstant.dDouble,78}
+        ,{ moValueTypeConstant.dText,67} };
+
+
         MyMapObjects.moMapLayer mEditingLayer = null;
         MyMapObjects.moFeature mIdentifyingFeature = null;
         MyMapObjects.moMapLayer mIdentifyingLayer = null;
 
+
         MyMapObjects.moTable table;
+
         private int imageindex = 0;
 
         public Form1()
@@ -383,7 +394,7 @@ namespace GIS_package
 
             for (int i = 0; i < table.columnsCount; i++)//Read record items
             {
-                string name = System.Text.Encoding.Default.GetString(br.ReadBytes(10));//ASCII码值的记录项名称
+                string name = System.Text.Encoding.Default.GetString(br.ReadBytes(11));//ASCII码值的记录项名称
                 string type = System.Text.Encoding.Default.GetString(br.ReadBytes(1));
                 MyMapObjects.moValueTypeConstant fieldType = TypeConvert(type);//字段类型
                 if (fieldType == MyMapObjects.moValueTypeConstant.dDouble)
@@ -397,7 +408,7 @@ namespace GIS_package
                 table.columnsName.Add(name);//Record the following name
                 MyMapObjects.moField sField = new MyMapObjects.moField(name, fieldType);
                 Fields.Append(sField);
-                _ = br.ReadBytes(5);//If the above is 11 bytes, here is 5 bytes
+                _ = br.ReadBytes(4);//If the above is 11 bytes, here is 5 bytes
                 table.columnsLength.Add(br.ReadByte());//Record the length of your data
                 _ = br.ReadBytes(15);//This contains precision, which can make the data look better, I am lazy and useless hhh
             }
@@ -720,6 +731,423 @@ namespace GIS_package
         }
         #endregion
 
+        private void 导出为shpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog sDialog = new SaveFileDialog();
+            string sFileName = "";
+            sDialog.Filter = "shapefiles(*.shp)|*.shp|All files(*.*)|*.*";
+
+            if (sDialog.ShowDialog() == DialogResult.OK)
+            {
+                sFileName = sDialog.FileName.ToString();
+                string folderPath = Path.GetDirectoryName(sFileName);
+                SaveSHP(folderPath,sDialog);
+                SaveDBF(folderPath,sDialog);
+                SaveSHX(folderPath, sDialog);
+                sDialog.Dispose();
+            }
+            else
+            {
+                sDialog.Dispose();
+                return;
+            }
+        }
+
+        private int ChangeByteOrder(int indata)
+        {
+            byte[] src = new byte[4];
+            src[0] = (byte)((indata >> 24) & 0xFF);
+            src[1] = (byte)((indata >> 16) & 0xFF);
+            src[2] = (byte)((indata >> 8) & 0xFF);
+            src[3] = (byte)(indata & 0xFF);
+
+
+            int value;
+            value = (int)((src[0] & 0xFF) | ((src[1] & 0xFF) << 8) | ((src[2] & 0xFF) << 16) | ((src[3] & 0xFF) << 24));
+            return value;
+        }
+
+        private void SaveSHP(string path,SaveFileDialog sDialog)
+        {
+            try
+            {
+                using (FileStream fs = new FileStream(path, FileMode.Create, FileAccess.Write))
+                {
+
+                    //byte[] data = new UTF8Encoding().GetBytes("abcdefg");
+                    //fs.Write(data, 0, data.Length);
+                    //写入FileCode
+                    int fileCode = ChangeByteOrder(9994);
+                    byte[] fc = System.BitConverter.GetBytes(fileCode);
+                    fs.Seek(0, SeekOrigin.Begin);
+                    fs.Write(fc, 0, fc.Length);
+                    //写入文件长度
+                    int fileLength = ChangeByteOrder(110);
+                    byte[] fl = System.BitConverter.GetBytes(fileLength);
+                    fs.Seek(24, SeekOrigin.Begin);
+                    fs.Write(fl, 0, fl.Length);
+                    //写入版本号
+                    int versionNumber = 1000;
+                    byte[] vn = System.BitConverter.GetBytes(versionNumber);
+                    fs.Seek(28, SeekOrigin.Begin);
+                    fs.Write(vn, 0, vn.Length);
+                    //写入文件类型
+                    int fileType = TypeDic[mSelectedLayer.ShapeType];
+                    byte[] ft = System.BitConverter.GetBytes(fileType); ;
+                    fs.Seek(32, SeekOrigin.Begin);
+                    fs.Write(ft, 0, ft.Length);
+                    //写入Extent范围
+                    double xMin = mSelectedLayer.Extent.MinX;
+                    byte[] xin = System.BitConverter.GetBytes(xMin);
+                    fs.Seek(36, SeekOrigin.Begin);
+                    fs.Write(xin, 0, xin.Length);
+                    double yMin = mSelectedLayer.Extent.MinY;
+                    byte[] yin = System.BitConverter.GetBytes(yMin);
+                    fs.Seek(44, SeekOrigin.Begin);
+                    fs.Write(yin, 0, yin.Length);
+                    double xMax = mSelectedLayer.Extent.MaxX;
+                    byte[] xax = System.BitConverter.GetBytes(xMax);
+                    fs.Seek(52, SeekOrigin.Begin);
+                    fs.Write(xax, 0, xax.Length);
+                    double yMax = mSelectedLayer.Extent.MaxY;
+                    byte[] yax = System.BitConverter.GetBytes(yMax);
+                    fs.Seek(60, SeekOrigin.Begin);
+                    fs.Write(yax, 0, yax.Length);
+
+                    int currentByte = 100;//从101位开始写入实体内容
+                                          //文件记录号
+                    fs.Seek(currentByte, SeekOrigin.Begin);
+                    byte[] fn1 = System.BitConverter.GetBytes(ChangeByteOrder(1));
+                    fs.Write(fn1, 0, fn1.Length);
+                    currentByte += 4;
+                    //坐标长度
+                    fs.Seek(currentByte, SeekOrigin.Begin);
+                    byte[] fn1_length = System.BitConverter.GetBytes(ChangeByteOrder(56));
+                    fs.Write(fn1_length, 0, fn1_length.Length);
+                    currentByte += 4;
+                    //几何类型
+                    switch(fileType)
+                    {
+                        case 1:
+                            {
+                                for(int j=0;j< mSelectedLayer.Features.Count;j++)
+                                {
+                                    fs.Seek(currentByte, SeekOrigin.Begin);
+                                    fs.Write(ft, 0, ft.Length);
+                                    currentByte += 4;
+                                    //x坐标
+                                    moPoint sPoint = (moPoint)mSelectedLayer.Features.Features[j].Geometry;
+                                    fs.Seek(currentByte, SeekOrigin.Begin);
+                                    byte[] x = System.BitConverter.GetBytes(sPoint.X);
+                                    fs.Write(x, 0, x.Length);
+                                    currentByte += 8;
+                                    fs.Seek(currentByte, SeekOrigin.Begin);
+                                    byte[] y = System.BitConverter.GetBytes(sPoint.Y);
+                                    fs.Write(y, 0, y.Length);
+                                    currentByte += 8;
+                                }
+
+                                break;
+                            }
+                        case 3:
+                            {
+                                fs.Seek(currentByte, SeekOrigin.Begin);
+                                fs.Write(ft, 0, ft.Length);
+                                currentByte += 4;
+                                //x坐标
+                               
+                                for (int j = 0; j < mSelectedLayer.Features.Count; j++)
+                                {
+                                    moMultiPolyline sMultiPolyline = (moMultiPolyline)mSelectedLayer.Features.Features[j].Geometry;
+                                    fs.Seek(currentByte, SeekOrigin.Begin);
+                                    byte[] x = System.BitConverter.GetBytes(sMultiPolyline.MinX);
+                                    fs.Write(x, 0, x.Length);
+                                    currentByte += 8;
+                                    fs.Seek(currentByte, SeekOrigin.Begin);
+                                    x = System.BitConverter.GetBytes(sMultiPolyline.MinY);
+                                    fs.Write(x, 0, x.Length);
+                                    currentByte += 8;
+                                    fs.Seek(currentByte, SeekOrigin.Begin);
+                                    x = System.BitConverter.GetBytes(sMultiPolyline.MaxX);
+                                    fs.Write(x, 0, x.Length);
+                                    currentByte += 8;
+                                    fs.Seek(currentByte, SeekOrigin.Begin);
+                                    x = System.BitConverter.GetBytes(sMultiPolyline.MaxY);
+                                    fs.Write(x, 0, x.Length);
+                                    currentByte += 8;
+                                    fs.Seek(currentByte, SeekOrigin.Begin);
+                                    byte[] C = System.BitConverter.GetBytes(sMultiPolyline.Parts.Count-1);
+                                    fs.Write(C, 0, C.Length);
+                                    currentByte += 4;
+                                    fs.Seek(currentByte, SeekOrigin.Begin);
+                                    byte[] NumParts = System.BitConverter.GetBytes(sMultiPolyline.Parts.Count);
+                                    fs.Write(NumParts, 0, NumParts.Length);
+                                    currentByte += 4;
+                                    int m = 0;
+                                    for (int k=0;k<sMultiPolyline.Parts.Count;k++)
+                                    {
+                                        
+                                        fs.Seek(currentByte, SeekOrigin.Begin);
+                                        NumParts = System.BitConverter.GetBytes(m);
+                                        m = m + sMultiPolyline.Parts.GetItem(k).Count;
+                                        fs.Write(NumParts, 0, NumParts.Length);
+                                        currentByte += 4;
+                                    }
+                                    for (int k = 0; k < sMultiPolyline.Parts.Count; k++)
+                                    {
+                                        for(int u=0;u< sMultiPolyline.Parts.GetItem(k).Count;u++)
+                                        {
+                                            fs.Seek(currentByte, SeekOrigin.Begin);
+                                            NumParts = System.BitConverter.GetBytes(sMultiPolyline.Parts.GetItem(k).GetItem(u).X);
+                                            fs.Write(NumParts, 0, NumParts.Length);
+                                            currentByte += 8;
+                                            fs.Seek(currentByte, SeekOrigin.Begin);
+                                            NumParts = System.BitConverter.GetBytes(sMultiPolyline.Parts.GetItem(k).GetItem(u).Y);
+                                            fs.Write(NumParts, 0, NumParts.Length);
+                                            currentByte += 8;
+                                        }
+
+                                    }
+
+                                }
+
+
+
+                                break;
+                            }
+                        case 5:
+                            {
+                                fs.Seek(currentByte, SeekOrigin.Begin);
+                                fs.Write(ft, 0, ft.Length);
+                                currentByte += 4;
+                                //x坐标
+
+                                for (int j = 0; j < mSelectedLayer.Features.Count; j++)
+                                {
+                                    moMultiPolygon sMultiPolygon = (moMultiPolygon)mSelectedLayer.Features.Features[j].Geometry;
+                                    fs.Seek(currentByte, SeekOrigin.Begin);
+                                    byte[] x = System.BitConverter.GetBytes(sMultiPolygon.MinX);
+                                    fs.Write(x, 0, x.Length);
+                                    currentByte += 8;
+                                    fs.Seek(currentByte, SeekOrigin.Begin);
+                                    x = System.BitConverter.GetBytes(sMultiPolygon.MinY);
+                                    fs.Write(x, 0, x.Length);
+                                    currentByte += 8;
+                                    fs.Seek(currentByte, SeekOrigin.Begin);
+                                    x = System.BitConverter.GetBytes(sMultiPolygon.MaxX);
+                                    fs.Write(x, 0, x.Length);
+                                    currentByte += 8;
+                                    fs.Seek(currentByte, SeekOrigin.Begin);
+                                    x = System.BitConverter.GetBytes(sMultiPolygon.MaxY);
+                                    fs.Write(x, 0, x.Length);
+                                    currentByte += 8;
+                                    fs.Seek(currentByte, SeekOrigin.Begin);
+                                    byte[] C = System.BitConverter.GetBytes(sMultiPolygon.Parts.Count - 1);
+                                    fs.Write(C, 0, C.Length);
+                                    currentByte += 4;
+                                    fs.Seek(currentByte, SeekOrigin.Begin);
+                                    byte[] NumParts = System.BitConverter.GetBytes(sMultiPolygon.Parts.Count);
+                                    fs.Write(NumParts, 0, NumParts.Length);
+                                    currentByte += 4;
+                                    int m = 0;
+                                    for (int k = 0; k < sMultiPolygon.Parts.Count; k++)
+                                    {
+
+                                        fs.Seek(currentByte, SeekOrigin.Begin);
+                                        NumParts = System.BitConverter.GetBytes(m);
+                                        m = m + sMultiPolygon.Parts.GetItem(k).Count;
+                                        fs.Write(NumParts, 0, NumParts.Length);
+                                        currentByte += 4;
+                                    }
+                                    for (int k = 0; k < sMultiPolygon.Parts.Count; k++)
+                                    {
+                                        for (int u = 0; u < sMultiPolygon.Parts.GetItem(k).Count; u++)
+                                        {
+                                            fs.Seek(currentByte, SeekOrigin.Begin);
+                                            NumParts = System.BitConverter.GetBytes(sMultiPolygon.Parts.GetItem(k).GetItem(u).X);
+                                            fs.Write(NumParts, 0, NumParts.Length);
+                                            currentByte += 8;
+                                            fs.Seek(currentByte, SeekOrigin.Begin);
+                                            NumParts = System.BitConverter.GetBytes(sMultiPolygon.Parts.GetItem(k).GetItem(u).Y);
+                                            fs.Write(NumParts, 0, NumParts.Length);
+                                            currentByte += 8;
+                                        }
+
+                                    }
+
+                                }
+
+
+
+                                break;
+                            }
+                    }
+                    
+
+
+                    //清空缓冲区、关闭流
+                    fs.Flush();
+                    fs.Close();
+                }
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.ToString());
+                sDialog.Dispose();
+                return;
+            }
+        }
+
+        private void SaveDBF(string path,SaveFileDialog sDialog)
+        {
+            try
+            {
+                using (FileStream fs = new FileStream(path, FileMode.Create, FileAccess.Write))
+                {
+                    //文件头，写版本信息
+                    int currentByte = 0;//从0位开始写入实体内容
+                                          //当前版本信息
+                    fs.Seek(currentByte, SeekOrigin.Begin);
+                    byte[] x = System.BitConverter.GetBytes(3);
+                    fs.Write(x, 0, x.Length);
+                    currentByte += 1;
+                    //最近更新日期
+                    fs.Seek(currentByte, SeekOrigin.Begin);
+                    x = System.BitConverter.GetBytes(221024);
+                    fs.Write(x, 0, x.Length);
+                    currentByte += 3;
+                    //记录条数
+                    fs.Seek(currentByte, SeekOrigin.Begin);
+                    x = System.BitConverter.GetBytes(mSelectedLayer.Features.Count);
+                    fs.Write(x, 0, x.Length);
+                    currentByte += 4;
+                    //文件头中字节数
+                    fs.Seek(currentByte, SeekOrigin.Begin);
+                    x = System.BitConverter.GetBytes(Convert.ToInt16(mSelectedLayer.AttributeFields.Count*32+33));
+                    fs.Write(x, 0, x.Length);
+                    currentByte += 2;
+                    fs.Seek(currentByte, SeekOrigin.Begin);
+                    x = System.BitConverter.GetBytes(0);
+                    fs.Write(x, 0, x.Length);
+                    currentByte += 21;
+                    fs.Seek(currentByte, SeekOrigin.Begin);
+                    for(int i=0;i<mSelectedLayer.AttributeFields.Count;i++)
+                    {
+                        
+                        for(int j=0;j< mSelectedLayer.AttributeFields.GetItem(i).Name.Length;j++)
+                        {
+                            ASCIIEncoding aSCII = new ASCIIEncoding();
+                            byte[] name = aSCII.GetBytes(mSelectedLayer.AttributeFields.GetItem(i).Name.Substring(j,1));
+                            fs.Write(name, 0, name.Length);
+                            
+                        }
+                        currentByte += 11;
+                        fs.Seek(currentByte, SeekOrigin.Begin);
+                        x = System.BitConverter.GetBytes(ValueDic[mSelectedLayer.AttributeFields.GetItem(i).ValueType]);
+                        fs.Write(x, 0, x.Length);
+                        currentByte += 1;
+                        //保留的记录字节
+                        fs.Seek(currentByte, SeekOrigin.Begin);
+                        x = System.BitConverter.GetBytes(0000);
+                        fs.Write(x, 0, x.Length);
+                        currentByte += 4;
+                        //记录项长度
+                        fs.Seek(currentByte, SeekOrigin.Begin);
+                        x = System.BitConverter.GetBytes(0000);
+                        fs.Write(x, 0, x.Length);
+                        currentByte += 4;
+                    }
+
+
+
+
+
+                    //清空缓冲区、关闭流
+                    fs.Flush();
+                    fs.Close();
+                }
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.ToString());
+                sDialog.Dispose();
+                return;
+            }
+        }
+
+        private void SaveSHX(string path,SaveFileDialog sDialog)
+        {
+            try
+            {
+                using (FileStream fs = new FileStream(path, FileMode.Create, FileAccess.Write))
+                {
+
+                    //byte[] data = new UTF8Encoding().GetBytes("abcdefg");
+                    //fs.Write(data, 0, data.Length);
+                    //写入FileCode
+                    int fileCode = ChangeByteOrder(9994);
+                    byte[] fc = System.BitConverter.GetBytes(fileCode);
+                    fs.Seek(0, SeekOrigin.Begin);
+                    fs.Write(fc, 0, fc.Length);
+                    //写入文件长度
+                    int fileLength = ChangeByteOrder(110);
+                    byte[] fl = System.BitConverter.GetBytes(fileLength);
+                    fs.Seek(24, SeekOrigin.Begin);
+                    fs.Write(fl, 0, fl.Length);
+                    //写入版本号
+                    int versionNumber = 1000;
+                    byte[] vn = System.BitConverter.GetBytes(versionNumber);
+                    fs.Seek(28, SeekOrigin.Begin);
+                    fs.Write(vn, 0, vn.Length);
+                    //写入文件类型
+                    int fileType = TypeDic[mSelectedLayer.ShapeType];
+                    byte[] ft = System.BitConverter.GetBytes(fileType); ;
+                    fs.Seek(32, SeekOrigin.Begin);
+                    fs.Write(ft, 0, ft.Length);
+                    //写入Extent范围
+                    double xMin = mSelectedLayer.Extent.MinX;
+                    byte[] xin = System.BitConverter.GetBytes(xMin);
+                    fs.Seek(36, SeekOrigin.Begin);
+                    fs.Write(xin, 0, xin.Length);
+                    double yMin = mSelectedLayer.Extent.MinY;
+                    byte[] yin = System.BitConverter.GetBytes(yMin);
+                    fs.Seek(44, SeekOrigin.Begin);
+                    fs.Write(yin, 0, yin.Length);
+                    double xMax = mSelectedLayer.Extent.MaxX;
+                    byte[] xax = System.BitConverter.GetBytes(xMax);
+                    fs.Seek(52, SeekOrigin.Begin);
+                    fs.Write(xax, 0, xax.Length);
+                    double yMax = mSelectedLayer.Extent.MaxY;
+                    byte[] yax = System.BitConverter.GetBytes(yMax);
+                    fs.Seek(60, SeekOrigin.Begin);
+                    fs.Write(yax, 0, yax.Length);
+
+                    int currentByte = 100;//从101位开始写入实体内容
+                                          //文件记录号
+                    fs.Seek(currentByte, SeekOrigin.Begin);
+                    byte[] fn1 = System.BitConverter.GetBytes(ChangeByteOrder(50));
+                    fs.Write(fn1, 0, fn1.Length);
+                    currentByte += 4;
+                    //坐标长度
+                    fs.Seek(currentByte, SeekOrigin.Begin);
+                    byte[] fn1_length = System.BitConverter.GetBytes(ChangeByteOrder(56));
+                    fs.Write(fn1_length, 0, fn1_length.Length);
+                    currentByte += 4;
+
+
+
+                    //清空缓冲区、关闭流
+                    fs.Flush();
+                    fs.Close();
+                }
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.ToString());
+                sDialog.Dispose();
+                return;
+            }
+        }
         #region 地图投影
 
         //转换投影-墨卡托投影
@@ -1034,6 +1462,7 @@ namespace GIS_package
             tVLayers.SelectedNode = checkNode;
             //获取当前选中的图层
             int index = SetSelectedLayerByNode(checkNode);
+            mSelectedLayer = moMap.Layers.GetItem(index);
             if (checkNode.Checked)
                 //显示当前地图
                 moMap.Layers.GetItem(index).Visible = true;
@@ -1234,7 +1663,7 @@ namespace GIS_package
                 //下面需要返回查询值
                 //直接在layer里面调用一个查询函数即可
                 //完成_Features.Add()
-                sql_Query.Layer.ExecuteSqlQuery(sql_Query.Layer.Features, sql_Query.Field, sql_Query.ConditionType, sql_Query.Value);
+                 sql_Query.Layer.ExecuteSqlQuery(sql_Query.Layer.Features, sql_Query.Field, sql_Query.ConditionType, sql_Query.Value);
 
                 //自动完成选择的跳转
 
@@ -3626,6 +4055,11 @@ namespace GIS_package
                 return;
             }
 
+        }
+
+        private void 帮助HToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("GIS设计第四小组产品");
         }
     }
 }

@@ -32,7 +32,10 @@ namespace MyMapObjects
             get { return _Features.Count(); }
         }
 
-
+        public List<moFeature> Features
+        {
+            get { return _Features; }
+        }
 
 
         #endregion
